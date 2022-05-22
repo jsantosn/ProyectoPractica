@@ -1,0 +1,463 @@
+
+
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src: url('../font_mintra/WorkSans-Regular.ttf') format('truetype');
+
+
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../font_mintra/Montserrat-Bold.ttf') format('truetype');
+}
+
+
+
+
+
+/* Color mintra rgb(6, 145, 105) #069169* Verde/
+
+    /*
+    Color Mintra Azul
+    #3366cc
+    51/102/204
+    rgba(60, 100, 172, 1);
+    */
+SELECT {
+    font-size: 8pt;
+    font-family: WorkSans-Regular,helvetica;
+}
+
+.titulo_tipo_1 {
+    margin-top: 5px;
+    font-size: 22pt;
+    font-family: 'Montserrat-Bold';
+    color: #3c3f8d;
+}
+
+
+.titulo_banner {
+    margin-top: 5px;
+    font-size: 19pt;
+    font-family: 'Montserrat-Bold';
+    color: #5b7cb6;
+}
+
+
+.texto_banner {
+    margin-top: 5px;
+    font-size: 12pt;
+    font-family: 'Montserrat-Bold';
+    color: #000;
+}
+
+
+.texto_banner_alerta {
+    margin-top: 5px;
+    font-size: 19pt;
+    font-family: 'Montserrat-Bold';
+    color: #e7302a;
+}
+
+
+.titulo_tipo_alerta{
+    margin-top: 5px;
+    font-size: 22pt;
+    font-family: 'Montserrat-Bold';
+    color: red;
+}
+
+.minimo {
+    min-height: 400px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* -box-sizing:border-box;*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'WorkSans-Regular';
+}
+
+.fondo {
+    background-image: url('../../images/fondo_aplicativo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.paddin_redes {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.padddin_gestion {
+    padding-bottom: 10px;
+}
+
+.ico_redes {
+    width: 70px;
+    height: 70px;
+    margin-left: 12px;
+    margin-right: 5px;
+}
+
+/*Estilos del menú */
+.linea_menu {
+    border: solid 1px;
+    border-bottom-color: rgba(80, 104, 169, 1);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+/**** ESTILO DE BANNER INFORMATIVO *****/
+/*Estilo Banner informativo*/
+
+.validacion-mensaje {
+    color: red;
+}
+
+/*Estilo de tabla*/
+#tabla_datos_paginate {
+    /*display:inline-grid;*/
+    /* justify-content: end;*/
+    float: right;
+}
+
+#paginate_button {
+    color: black;
+    background-color: darkgray;
+    text-decoration-color: black;
+}
+
+#tabla_datos_filter > label {
+    display: inline-flex;
+    font-weight: bold;
+    /* justify-content: end;*/
+    float: right;
+    vertical-align: middle;
+}
+
+#tabla_datos_info {
+    /*display:inline-grid;*/
+    /* justify-content: end;*/
+    font-weight: bold;
+}
+
+#tabla_datos_length > label {
+    display: inline-flex;
+    /* justify-content: end;*/
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+
+/*Estilos del FOOTER MINTRA*/
+
+.texto_titulo_footer {
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+.texto_contenido_footer {
+    color: white;
+    font-size: small;
+}
+
+.texto_copyright {
+    color: white;
+    font-size: small;
+}
+
+.alinear_logos {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.paddin_footer {
+    background-color: rgba(60, 100, 172, 1); /* rgba(80, 104, 169, 1);*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header_info {
+    background-color: rgba(60, 100, 172, 1); /* rgba(80, 104, 169, 1);*/
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header_texto_info {
+    line-height: 50px;
+}
+
+.header_logos {
+    line-height: 80%;
+ 
+}
+
+.tam_logo1 {
+    width: 80%;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+
+.tam_logo2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 25%;
+}
+
+
+.logo_govco {
+    width: 100%;
+    height: 29px;
+    background-image: url("../../images/govco.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+
+.logo_xco {
+    width: 70%;
+    height: 85%; 
+    
+    /*background-image: url("../../images/co.png");*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    /*margin-top: 5px;*/  
+    
+}
+
+
+.bg_header {
+    width: 100%;
+    /*height: 180px;*/
+    background-image: url("../../images/fdo_head.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+/*
+.tam_logo3 {
+    
+    height:50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+    */
+@media screen and (max-width:992px) {
+    .tam_logo1 {
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .tam_logo2 {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 70%;
+    }
+
+    .scroll {
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+}
+
+.paddin_columnas {
+    padding: 20px;
+}
+
+.paddin_columna3 {
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: -20px;
+}
+
+.paddin_columna4 {
+    padding-top: 20px;
+}
+
+.ico32:hover {
+    color: aquamarine;
+    /*background-color: aquamarine;*/
+    border-color: aquamarine;
+}
+
+
+/* Fin Estilos del FOOTER*/
+
+.centrar-texto {
+    text-align: center;
+}
+
+
+
+/* Estilo para posicionar el popover*/
+
+.divpopover {
+    position: absolute;
+    top: 100px;
+}
+
+
+.alinear_contacto {
+    display: inline-block;
+}
+
+.tomayusculas {
+    text-transform: uppercase;
+}
+
+/* Estilos de los iconos que se posicionan en el menú*/
+
+
+.card-body-icon {
+    position: absolute;
+    z-index: 0;
+    top: -25px;
+    right: -25px;
+    font-size: 5rem;
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
+    }
+
+
+
+
+
+}
+
+@media (min-width: 768px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 312px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+/*Fin de los estilos de los iconos que se posicionan en el menú*/
+
+
+.alto_60 {
+    height: 200px;
+}
+
+
+/* Adicionales*/
+.bg-cyan {
+    background-color: #dc4f35 !important;
+}
+
+a.bg-cyan:hover, a.bg-cyan:focus,
+button.bg-cyan:hover,
+button.bg-cyan:focus {
+    background-color: #a7331d !important;
+}
+
+.bg-teal {
+    background-color: #20c997 !important;
+}
+
+a.bg-teal:hover, a.bg-teal:focus,
+button.bg-teal:hover,
+button.bg-teal:focus {
+    background-color: #158765!important;
+}
+
+
+.bg-blue_dark {
+    background-color: #4223ee !important;
+}
+
+a.bg-blue_dark:hover, a.bg-blue_dark:focus,
+button.blue_dark:hover,
+button.blue_dark:focus {
+    background-color: #3c1af7 !important;
+}
+
+
+.bg-purple {
+    background-color: #76199d !important;
+}
+
+a.bg-purple:hover, a.bg-purple:focus,
+button.bg-purple:hover,
+button.bg-purple:focus {
+    background-color: #651587 !important;
+}
+
+
+
+.bg-darkgreen {
+    background-color: #3CB371 !important;
+}
+
+a.bg-darkgreen:hover, a.bg-darkgreen:focus,
+button.bg-darkgreen:hover,
+button.bg-darkgreen:focus {
+    background-color: #2E8B57 !important;
+}
+
+.bg-darkcyan {
+    background-color: #008B8B !important;
+}
+
+a.bg-darkcyan:hover, a.bg-darkcyan:focus,
+button.bg-darkcyan:hover,
+button.bg-darkcyan:focus {
+    background-color: #008080 !important;
+}
+
+.bg-darkoliver {
+    background-color: #556B2F !important;
+}
+
+a.bg-darkcyan:hover, a.bg-darkcyan:focus,
+button.bg-darkcyan:hover,
+button.bg-darkcyan:focus {
+    background-color: #3C4C21 !important;
+}
+
+/* Adicionales*/
